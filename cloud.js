@@ -23,3 +23,8 @@ AV.Cloud.define('fetchUCData', function(request) {
   var reseult = ucfetch.fetchUCData();
   return reseult;
 })
+
+AV.Cloud.define('sumData', function(request) {
+  var reseult = ucfetch.sumData();
+  return reseult;
+})
