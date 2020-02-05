@@ -96,7 +96,7 @@ async function sumData() {
       }
 
       newSumData.set('sure_cnt', element.get('sure_cnt'));
-      newSumData.set('like_cnt', element.get('.ike_cnt'));
+      newSumData.set('like_cnt', element.get('like_cnt'));
       newSumData.set('die_cnt', element.get('die_cnt'));
       newSumData.set('cure_cnt', element.get('cure_cnt'));
       newSumData.set('statisEndDate', preDate);
